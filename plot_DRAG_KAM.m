@@ -20,7 +20,8 @@ PlotRobustnessDelta = 0;
 controls = getControls(TypeOfControl);
 t = controls(:,1);
 Delta = controls(:,2);
-Omega = controls(:,3);   
+Omega = controls(:,3); 
+% ! Or simply read any controls as t, Delta, Omega !
 
 
 FFid = [];
